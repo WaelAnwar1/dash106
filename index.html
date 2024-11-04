@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard# 5</title>
+    
+    <!--google materials-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,500;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--custom style-->
+    <link rel="stylesheet" href="./style.css">
+    
+
+</head>
+<body>
+    <!--NAVBAR start-->
+    <nav>
+        <div class="container">
+
+            <img src="./images/logo.png" class="logo">
+            
+            <div class="search-bar">
+                <span class="material-icons-sharp">search</span>
+                <input type="search" placeholder="Search">
+            </div>
+
+            <div class="profile-area">
+
+                <div class="theme-btn">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+
+                <div class="profile">
+                    <div class="profile-photo">
+                        <img src="./images/person-2.jpeg">
+                    </div>
+                    
+                    <h5>System Admin</h5>
+                    <span class="material-icons-sharp">expand_more</span>
+                </div>
+                
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!--NAVBAR end-->
+
+
+
+    <!--Main start *************************-->
+    <main>
+        <!--sidbar section - start-->
+        <aside>
+            <button id="close-btn">
+                <span class="material-icons-sharp">close</span>
+            </button>
+
+            <div class="sidebar">
+
+                <a href="#">
+                    <span class="material-icons-sharp">dashboard</span>
+                    <h4>Dashboard</h4>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">currency_exchange</span>
+                    <h4>Exchange</h4>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">account_balance_wallet</span>
+                    <h4>Wallet</h4>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">payment</span>
+                    <h4>Transactions</h4>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">pie_chart</span>
+                    <h4>Analytics</h4>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">message</span>
+                    <h4>Messages</h4>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">help_center</span>
+                    <h4>Help Center</h4>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h4>Settings</h4>
+                </a>
+            </div>
+            <!--Updates icon -->
+            <div class="updates">
+                <span class="material-icons-sharp">update</span>
+                <h4>Updates Available</h4>
+                <p>Security Updates</p>
+                <p>General Updates</p>
+                <a href="#">Update Now</a>
+            </div>
+        </aside>
+        <!--sidebar section - end -->
+
+
+
+
+        <!--middle section - start-->
+        <section class="middle">
+
+            <div class="header">
+                <h1>Overview</h1>
+                <input type="date">
+            </div>
+            <!--Cards start-->
+            <div class="cards">
+
+                <!--Card# 1  ###########################-->
+                <div class="card">
+
+                    <div class="top">
+                        <div class="left">
+                            <img src="./images/BTC.png">
+                            <h2>BTC</h2>
+                        </div>
+                        <img src="./images/visa.png" class="right">
+                    </div>
+
+                    <div class="middle">
+                        <h1>$827,199</h1>
+                        <div class="chip">
+                            <img src="./images/card chip.png">
+                        </div>
+                    </div>
+
+                    <div class="bottom">
+
+                        <div class="left">
+                            <small>Card Holder</small>
+                            <h5>Account#1</h5>
+                        </div>
+
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Expire Date</small>
+                                <h5>31/10/2020</h5>
+                            </div>
+
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>123</h5>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--card# 2  ##########################-->
+                <div class="card">
+
+                    <div class="top">
+                        <div class="left">
+                            <img src="./images/ETH.png">
+                            <h2>ETH</h2>
+                        </div>
+                        <img src="./images/master card.png" class="right">
+                    </div>
+
+                    <div class="middle">
+                        <h1>$95,623</h1>
+                        <div class="chip">
+                            <img src="./images/card chip.png">
+                        </div>
+                    </div>
+
+                    <div class="bottom">
+
+                        <div class="left">
+                            <small>Card Holder</small>
+                            <h5>Account#2</h5>
+                        </div>
+
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Expire Date</small>
+                                <h5>11/10/2023</h5>
+                            </div>
+
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>765</h5>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--card# 3  #######################-->
+                <div class="card">
+
+                    <div class="top">
+                        <div class="left">
+                            <img src="./images/BTC.png">
+                            <h2>BTC</h2>
+                        </div>
+                        <img src="./images/visa.png" class="right">
+                    </div>
+
+                    <div class="middle">
+                        <h1>$87,109</h1>
+                        <div class="chip">
+                            <img src="./images/card chip.png">
+                        </div>
+                    </div>
+
+                    <div class="bottom">
+
+                        <div class="left">
+                            <small>Card Holder</small>
+                            <h5>Account#3</h5>
+                        </div>
+
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Expire Date</small>
+                                <h5>31/10/2025</h5>
+                            </div>
+
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>123</h5>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--middle end-->
+
+
+
+        <!--right section - start-->
+        <section class="right">
+
+        </section>
+        <!--right section - end-->
+    </main>
+    <!--Main end ****************************-->
+
+</body>
+</html>
